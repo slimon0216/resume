@@ -11,6 +11,20 @@
 
 %---------------------------------------------------------
   \cventry
+    {\textbf {System Software Engineer} | \color{awesome} Tech Stack: C/C++, Rust, Trusted OS, OP-TEE, Android System Security} % Job title
+    {NVIDIA} % Organization
+    {Taipei, Taiwan} % Location
+    {Nov. 2024 - Present} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item {Developed and delivered security features leveraging Trusted Execution Environment (TEE) for Android on NVIDIA Tegra SoCs, including hardware-backed cryptographic services (Keymint, Gatekeeper) and content protection system (Widevine)}
+        \item {Constructed a robust bridge connecting Rust-based Android Keymint with C/C++ OP-TEE components via Foreign Function Interface (FFI), leveraging Rust's strong memory safety guarantees while maintaining high-performance secure cryptographic operations in the TEE}
+      \end{cvitems}
+    }
+
+  \vspace{12pt}
+%---------------------------------------------------------
+  \cventry
     {\textbf {Software Engineer Intern} | \color{awesome} Tech Stack: Modern C++, Bazel, Protobuf, Perfetto} % Job title
     {MediaTek} % Organization
     {Hsinchu, Taiwan} % Location
@@ -22,22 +36,26 @@
       \end{cvitems}
     }
 
+  \vspace{12pt}
+
 %---------------------------------------------------------
   \cventry
-    {\textbf{Software Engineer \& Quantitative Trader} | \color{awesome} Tech Stack: Modern C++, CMake, GoogleTest, Docker} % Job title
-    {A\&R Research Capital (Crypto Quantitative Fund)} % Organization
+    {\textbf{Software Engineer / Quantitative Trader} | \color{awesome} Tech Stack: Modern C++, CMake, RESTful API, WebSocket, GoogleTest, Docker} % Job title
+    {A\&R Research Capital} % Organization
     {Taipei, Taiwan} % Location
     {Jan. 2022 - Sep. 2022} % Date(s)
     {
       \begin{cvitems} % Description(s) of tasks/responsibilities
         \item Led a 5-person infrastructure team to develop tools for crypto trading, utilizing a Test-Driven Development (TDD) approach
-        \item Engineered a high-frequency trading strategy in C++, with robust error and signal handling mechanisms, yielding consistent profits 
-        \item Automated the build and testing processes by scripting, achieving a more efficient and streamlined development workflow
+        \item initiate a project to redesigned the trading engine by converting CRTP-based static polymorphism to runtime polymorphism through proper inheritance hierarchies, resulting in improved maintainability and easier onboarding for new team members
+        \item Developed a robust C++ high-frequency trading algorithm with sub-millisecond response time, yielding consistent profits 
+        % \item Automated the build and testing processes by scripting, achieving a more efficient and streamlined development workflow
         % \item Reduced the system build time by over 50\% by adopting a compiler cache to avoid unnecessary recompilations
         \item Elevated test coverage from 40\% to 90\% by writing unit tests utilizing GoogleTest
-        \item Refactored tightly-coupled codes and eliminated duplications to enhance the reusability and maintainability
       \end{cvitems}
     }
+
+  \vspace{12pt}
 
 %---------------------------------------------------------
 \end{cventries}
