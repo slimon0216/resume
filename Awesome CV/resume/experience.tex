@@ -11,14 +11,23 @@
 
 %---------------------------------------------------------
   \cventry
-    {\textbf {System Software Engineer} | \color{awesome} Tech Stack: C/C++, Rust, Trusted OS, OP-TEE, Android System Security} % Job title
+    {\textbf {System Software Engineer - Core Platform Security Team} | \color{awesome} Tech Stack: C/C++, Rust, Embedded System, Trusted Operating System (TOS), Trusted Execution Environment (TEE) Android Security, ARM TrustZone, OP-TEE} % Job title
     {NVIDIA} % Organization
     {Taipei, Taiwan} % Location
     {Nov. 2024 - Present} % Date(s)
     {
       \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {Developed and delivered security features leveraging Trusted Execution Environment (TEE) for Android on NVIDIA Tegra SoCs, including hardware-backed cryptographic services (Keymint, Gatekeeper) and content protection system (Widevine)}
-        \item {Constructed a robust bridge connecting Rust-based Android Keymint with C/C++ OP-TEE components via Foreign Function Interface (FFI), leveraging Rust's strong memory safety guarantees while maintaining high-performance secure cryptographic operations in the TEE}
+        \item {Designed and developed hardware-backed security solutions for Tegra SoCs across the full NVIDIA software stack—spanning device drivers, trusted OS, and trusted applications—through close collaboration with cross-functional teams in hardware, firmware, platform, and application domains}
+        \item {Implemented and improved Android security features on Tegra SoCs, leveraging ARM TrustZone and platform-specific Hardware Security Modules}
+        \begin{itemize}
+          \item KeyStore (KeyMint) - Hardware-backed key management and cryptographic operations
+          \item Gatekeeper - Device authentication and secure lock screen implementation
+          \item Android Verified Boot (AVB) - Boot integrity verification and secure boot chain
+          \item Remote Key Provisioning (RKP) - Secure key provisioning from remote servers
+          \item Widevine DRM - Digital rights management for protected content playback
+        \end{itemize}
+        % \item {Architected and built a high-performance Rust-to-C/C++ bridge for Android KeyMint and OP-TEE integration using Foreign Function Interface (FFI), ensuring memory safety while maintaining optimal cryptographic performance in the TEE}
+        % \item {Developed a high-performance Rust-to-C/C++ bridge for Android KeyMint and OP-TEE integration using Foreign Function Interface (FFI), ensuring memory safety while maintaining optimal cryptographic performance in the TEE. This bridge is used in the Android KeyMint and OP-TEE integration, and is used in the Android KeyMint and OP-TEE integration. This bridge is used in the Android KeyMint and OP-TEE integration, and is used in the Android KeyMint and OP-TEE integration.}
       \end{cvitems}
     }
 
